@@ -47,19 +47,5 @@ sr.reveal('.reviews-container', { delay: 600, origin: 'top' });
 sr.reveal('.newsletter .box', { delay: 400, origin: 'bottom' });
 
 
-const subscribeButton = document.querySelector('.newsletter .box .btn');
-const newsletterContainer = document.querySelector('.newsletter .box');
 
-function adjustButtonPosition() {
-  const buttonWidth = subscribeButton.offsetWidth;
-  const containerWidth = newsletterContainer.offsetWidth;
-  const newLeft = containerWidth - buttonWidth - 10; // Adjust offset as needed
-  const newTop = newsletterContainer.offsetHeight - subscribeButton.offsetHeight - 5; // Adjust offset as needed
-
-  subscribeButton.style.left = `${newLeft}px`;
-  subscribeButton.style.top = `${newTop}px`;
-}
-
-window.addEventListener('resize', adjustButtonPosition);
-adjustButtonPosition(); // Call initially to set the position
 
