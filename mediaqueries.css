@@ -123,6 +123,10 @@ font-size: 1.3rem;
     .services-container {
         grid-template-columns: repeat(auto,minmax(254px,auto));
     }
+     .newsletter .box{
+        width: 284px;
+        margin-right: 1rem;
+     }
 }
 @media (max-width: 768px) {
     /* Styles for smaller screens */
