@@ -94,7 +94,7 @@ font-size: 1.3rem;
     }
     .newsletter .box{
         width: 284px;
-        margin-right: 1rem;
+        margin-left: 1rem;
     }
     .form-container {
         padding: 2rem;
@@ -125,7 +125,7 @@ font-size: 1.3rem;
     }
      .newsletter .box{
         width: 284px;
-        margin-right: 1rem;
+        margin-left: 1rem;
      }
 }
 @media (max-width: 768px) {
